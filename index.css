@@ -1,0 +1,98 @@
+.valentine-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    gap: 10px;
+}
+
+.valentine__title {
+    font-size: 50px;
+    font-weight: 500;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+
+.valentine__btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.valentine__btn {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px 80px;
+    font-size: 20px;
+    font-style: initial;
+    font-weight: 600;
+    cursor: pointer;
+   
+
+}
+
+.yes-btn:active {
+    transform: translateY(4px);
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    
+}
+
+.no-btn:active {
+    transform: translateY(4px);
+    background-color: #d51414;
+    box-shadow: 0 5px #666;
+
+}
+
+@media (max-width:900px) {
+    .valentine__title {
+        font-size: 30px;
+        
+    }
+
+    .giphy-embed {
+        width: 400px;
+    }
+    .valentine__btn {
+        background-color: white;
+        border: 2px solid black;
+        padding: 10px 40px;
+        font-size: 15px;
+        font-style: initial;
+        font-weight: 500;
+        cursor: pointer;
+       
+    
+    }
+
+
+}
+
+@media (max-width:400px) {
+
+    .valentine__title {
+        font-size: 20px;
+        
+    }
+
+    .giphy-embed {
+        width: 280px;
+    }
+
+    .valentine__btn {
+        background-color: white;
+        border: 2px solid black;
+        padding: 10px 20px;
+        font-size: 10px;
+        font-style: initial;
+        font-weight: 500;
+        cursor: pointer;
+       
+    
+    }
+
+}
